@@ -17,6 +17,7 @@ license {
 
 cc_defaults {
     name: "libsqlite3_android_defaults",
+    recovery_available: true,
     host_supported: true,
     cflags: [
         "-Wall",
